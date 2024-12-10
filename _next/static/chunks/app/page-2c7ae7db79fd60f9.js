@@ -110,21 +110,21 @@
                 g = s(7476),
                 j = s(5539);
             let w = [{
-                title: "Create a Phantom Wallet",
+                title: "Create a Metamask Wallet",
                 description: (0, n.jsxs)("span", {
                     children: ["Visit", " ", (0, n.jsx)(m.default, {
-                        href: "https://phantom.app",
+                        href: "https://metamask.io",
                         target: "_blank",
                         className: "underline",
-                        children: "phantom.app"
-                    }), " ", "and follow the simple steps to create a new account with the Phantom app or browser extension."]
+                        children: "metamask.io"
+                    }), " ", "and follow the simple steps to create a new account with the Metamask app or browser extension."]
                 })
             }, {
                 title: "Fund Your Wallet with $SOL",
-                description: "In the Phantom app, tap the 'BUY' button to purchase Solana ($SOL) directly. Alternatively, you can deposit $SOL from your preferred crypto exchange into your Phantom wallet."
+                description: "In the Metamask app, tap the 'BUY' button to purchase Ethereum ($SOL) directly. Alternatively, you can deposit $SOL from your preferred crypto exchange into your Metamask wallet."
             }, {
                 title: "Swap $SOL for Toroemon Coin",
-                description: "In your Phantom wallet, tap the 'SWAP' icon and paste the $TOROEMON Coin token address. Swap your $SOL for $TOREMON"
+                description: "In your Metamask wallet, tap the 'SWAP' icon and paste the $TOROEMON Coin token address. Swap your $SOL for $TOREMON"
             }, {
                 title: "Welcome to the Toroemon Community!",
                 description: "Congratulations you are now a Toroemon holder!"
@@ -269,39 +269,7 @@
                 c = s(7476),
                 r = s(9805),
                 o = s(5539);
-            let x = [{
-                    src: "/exchanges/bingx.png",
-                    alt: "BingX Button",
-                    link: "https://bingx.com"
-                }, {
-                    src: "/exchanges/bitget.png",
-                    alt: "Bitget Button",
-                    link: "https://www.bitget.com"
-                }, {
-                    src: "/exchanges/bitmart.png",
-                    alt: "Bitmart Button",
-                    link: "https://www.bitmart.com"
-                }, {
-                    src: "/exchanges/lbank.png",
-                    alt: "Lbank Button",
-                    link: "https://www.lbank.com"
-                }, {
-                    src: "/exchanges/mexc.png",
-                    alt: "Mexc Button",
-                    link: "https://www.mexc.com"
-                }, {
-                    src: "/exchanges/ourbit.png",
-                    alt: "Ourbit Button",
-                    link: "https://ourbit.io"
-                }, {
-                    src: "/exchanges/polo.png",
-                    alt: "Poloniex Button",
-                    link: "https://www.poloniex.com"
-                }, {
-                    src: "/exchanges/moonshot.png",
-                    alt: "Moonshot",
-                    link: "moonshot.money"
-                }],
+            let x = [],
                 d = e => {
                     let {
                         exchange: t
@@ -351,9 +319,6 @@
                         width: 2e3,
                         height: 300,
                         className: "min-w-[1500px] absolute -top-40 sm:-top-32 z-0 h-fit -mx-2 -mt-16"
-                    }), (0, n.jsx)(l.Z, {
-                        className: "mb-16",
-                        children: "Exchanges"
                     }), (0, n.jsxs)("div", {
                         className: "flex max-sm:flex-col gap-16 items-center max-w-4xl z-10",
                         children: [(0, n.jsx)("div", {
@@ -431,7 +396,7 @@
                 icon: "/icons/x.png",
                 alt: "X Icon"
             }, {
-                href: "https://dexscreener.com/solana/0x00000000000000000000000",
+                href: "https://dexscreener.com/ethereum/0x00000000000000000000000",
                 icon: "/icons/dt.png",
                 alt: "DexTools Icon"
             }];
@@ -673,8 +638,8 @@
                                 children: (0, n.jsxs)("div", {
                                     className: "flex flex-col gap-2 items-center",
                                     children: [(0, n.jsx)(r, {
-                                        src: "/icons/solana.png",
-                                        alt: "Solana"
+                                        src: "/icons/ethereum.png",
+                                        alt: "Ethereum"
                                     }), (0, n.jsxs)("div", {
                                         className: "flex flex-col items-center gap-2",
                                         children: [(0, n.jsx)("span", {
@@ -682,7 +647,7 @@
                                             children: "Network"
                                         }), (0, n.jsx)("span", {
                                             className: "text-3xl sm:text-5xl",
-                                            children: "Solana"
+                                            children: "Ethereum"
                                         })]
                                     })]
                                 })
